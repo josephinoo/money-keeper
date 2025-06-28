@@ -6,6 +6,7 @@
     "dev": "vite dev",
     "start": "vite dev",
     "build": "vite build",
+    "postinstall": "prisma generate",
     "preview": "vite preview",
     "test": "playwright test",
     "test:headed": "playwright test --headed",
