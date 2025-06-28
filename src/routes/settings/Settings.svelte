@@ -87,19 +87,8 @@
       text={$translate('settings.profile.logout')}
     />
   {/if}
-  <a class="text-decoration-none" href="https://github.com/ya-erm/money-keeper/issues" target="_blank" rel="noreferrer">
-    <Button appearance="link" underlined={false}>
-      <span>
-        <span>{$translate('settings.report_problem')}</span>
-        <Icon name="ri:external-link-line" size={1} />
-      </span>
-    </Button>
-  </a>
-  <div class="build-info">
-    <span>{$translate('settings.version', { values: { version } })}</span>
-    <span>•</span>
-    <Button appearance="link" underlined={false} text="UI Kit" onClick={() => goto(routes.uikit.path)} />
-  </div>
+
+
 </div>
 
 <LanguageModal bind:opened={$languageModalOpened} />

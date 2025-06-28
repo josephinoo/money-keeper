@@ -1,9 +1,8 @@
 import { getLocaleFromNavigator, init } from 'svelte-i18n';
 
-import 'dayjs/locale/ru';
-
 import './en';
-import './ru';
+import './es';
+import 'dayjs/locale/es';
 
 import { getCookie } from '$lib/utils/cookie';
 import { Logger } from '$lib/utils/logger';

@@ -4,7 +4,7 @@ export type { Messages } from './messages';
 
 export type Dictionary = { [key in Messages]: string };
 
-export type Locales = 'ru-RU' | 'en-US';
+export type Locales = 'es-ES' | 'en-US';
 
 type FormatOptions = {
   locale?: string;
